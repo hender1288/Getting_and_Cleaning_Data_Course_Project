@@ -8,12 +8,11 @@ run_analysis<-function(wd){
   url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   zip_name<-"UCI HAR Dataset.zip"
   path<-file.path(getwd(),zip_name)
-  download.file(url,path)
-  unzip(zip_name)
-  x_trainSet<-read.table("UCI HAR Dataset/test/X_train.txt")
-  y_trainSet<-read.table("UCI HAR Dataset/test/y_train.txt")
-  sub_trainSet<-read.table("UCI HAR Dataset/test/subject_train.txt")
-
+  if (!file.exists(path)){
+    download.file(url,path)
+    unzip(zip_name)
+  }
+  
   #-----------------------------------------------------------------
   # 1. Merges the training and the test sets to create one data set.
   #-----------------------------------------------------------------
@@ -22,7 +21,7 @@ run_analysis<-function(wd){
   x_trainSet<-read.table("UCI HAR Dataset/train/X_train.txt")
   y_trainSet<-read.table("UCI HAR Dataset/train/y_train.txt")
   sub_trainSet<-read.table("UCI HAR Dataset/train/subject_train.txt")
-
+  
   ###Getting Test Set tables
   x_testSet<-read.table("UCI HAR Dataset/test/X_test.txt")
   y_testSet<-read.table("UCI HAR Dataset/test/y_test.txt")
@@ -84,6 +83,6 @@ run_analysis<-function(wd){
   tidyData <- aggregate(. ~ Subject + Activity, merge_fltr_set, mean)
   
   write.table(tidyData, file = "tidydata.txt",row.name=FALSE)
-  return(tidyData)
-
+  
+  
 }
