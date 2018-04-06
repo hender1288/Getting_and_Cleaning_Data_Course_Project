@@ -69,8 +69,73 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 
 Some changes have been made to get more readeble the variabales into the final merge data set:
 ========
- Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+ |Variable|
+| :------------ |
+|Subject|
+|Activity|
+|TimeDom.BodyAcceleration-mean()-X|
+|TimeDom.BodyAcceleration-mean()-Y|
+|TimeDom.BodyAcceleration-mean()-Z|
+|TimeDom.BodyAcceleration-std()-X|
+|TimeDom.BodyAcceleration-std()-Y|
+|TimeDom.BodyAcceleration-std()-Z|
+|TimeDom.GravityAcceleration-mean()-X|
+|TimeDom.GravityAcceleration-mean()-Y|
+|TimeDom.GravityAcceleration-mean()-Z|
+|TimeDom.GravityAcceleration-std()-X|
+|TimeDom.GravityAcceleration-std()-Y|
+|TimeDom.GravityAcceleration-std()-Z|
+|TimeDom.BodyAccelerationJerk-mean()-X|
+|TimeDom.BodyAccelerationJerk-mean()-Y|
+|TimeDom.BodyAccelerationJerk-mean()-Z|
+|TimeDom.BodyAccelerationJerk-std()-X|
+|TimeDom.BodyAccelerationJerk-std()-Y|
+|TimeDom.BodyAccelerationJerk-std()-Z|
+|TimeDom.BodyAngularSpeed-mean()-X|
+|TimeDom.BodyAngularSpeed-mean()-Y|
+|TimeDom.BodyAngularSpeed-mean()-Z|
+|TimeDom.BodyAngularSpeed-std()-X|
+|TimeDom.BodyAngularSpeed-std()-Y|
+|TimeDom.BodyAngularSpeed-std()-Z|
+|TimeDom.BodyAngularSpeedJerk-mean()-X|
+|TimeDom.BodyAngularSpeedJerk-mean()-Y|
+|TimeDom.BodyAngularSpeedJerk-mean()-Z|
+|TimeDom.BodyAngularSpeedJerk-std()-X|
+|TimeDom.BodyAngularSpeedJerk-std()-Y|
+|TimeDom.BodyAngularSpeedJerk-std()-Z|
+|TimeDom.BodyAccelerationMagnitude-mean()|
+|TimeDom.BodyAccelerationMagnitude-std()|
+|TimeDom.GravityAccelerationMagnitude-mean()|
+|TimeDom.GravityAccelerationMagnitude-std()|
+|TimeDom.BodyAccelerationJerkMagnitude-mean()|
+|TimeDom.BodyAccelerationJerkMagnitude-std()|
+|TimeDom.BodyAngularSpeedMagnitude-mean()|
+|TimeDom.BodyAngularSpeedMagnitude-std()|
+|TimeDom.BodyAngularSpeedJerkMagnitude-mean()|
+|TimeDom.BodyAngularSpeedJerkMagnitude-std()|
+|FrequencyDom.BodyAcceleration-mean()-X|
+|FrequencyDom.BodyAcceleration-mean()-Y|
+|FrequencyDom.BodyAcceleration-mean()-Z|
+|FrequencyDom.BodyAcceleration-std()-X|
+|FrequencyDom.BodyAcceleration-std()-Y|
+|FrequencyDom.BodyAcceleration-std()-Z|
+|FrequencyDom.BodyAccelerationJerk-mean()-X|
+|FrequencyDom.BodyAccelerationJerk-mean()-Y|
+|FrequencyDom.BodyAccelerationJerk-mean()-Z|
+|FrequencyDom.BodyAccelerationJerk-std()-X|
+|FrequencyDom.BodyAccelerationJerk-std()-Y|
+|FrequencyDom.BodyAccelerationJerk-std()-Z|
+|FrequencyDom.BodyAngularSpeed-mean()-X|
+|FrequencyDom.BodyAngularSpeed-mean()-Y|
+|FrequencyDom.BodyAngularSpeed-mean()-Z|
+|FrequencyDom.BodyAngularSpeed-std()-X|
+|FrequencyDom.BodyAngularSpeed-std()-Y|
+|FrequencyDom.BodyAngularSpeed-std()-Z|
+|FrequencyDom.BodyAccelerationMagnitude-mean()|
+|FrequencyDom.BodyAccelerationMagnitude-std()|
+|FrequencyDom.BodyBodyAccelerationJerkMagnitude-mean()|
+|FrequencyDom.BodyBodyAccelerationJerkMagnitude-std()|
+|FrequencyDom.BodyBodyAngularSpeedMagnitude-mean()|
+|FrequencyDom.BodyBodyAngularSpeedMagnitude-std()|
+|FrequencyDom.BodyBodyAngularSpeedJerkMagnitude-mean()|
+|FrequencyDom.BodyBodyAngularSpeedJerkMagnitude-std()|
