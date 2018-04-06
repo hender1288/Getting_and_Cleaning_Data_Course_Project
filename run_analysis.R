@@ -61,13 +61,13 @@ run_analysis<-function(wd){
   filter_feat <- gsub('Mag',"Magnitude",filter_feat)
   filter_feat <- gsub('Acc',"Acceleration",filter_feat)
   filter_feat <- gsub('Gyro',"AngularSpeed",filter_feat)
-  filter_feat <- gsub('^t',"TimeDom.",filter_feat)
+  filter_feat <- gsub('^t',"Time.",filter_feat)
   filter_feat <- gsub('\\.mean',".Mean",filter_feat)
   filter_feat <- gsub('Freq\\.',"Frequency.",filter_feat)
   filter_feat <- gsub('Freq$',"Frequency",filter_feat)
   filter_feat <- gsub('GyroJerk',"AngularAcceleration",filter_feat)
   filter_feat <- gsub('\\.std',".StandardDeviation",filter_feat)
-  filter_feat <- gsub('^f',"FrequencyDom.",filter_feat)
+  filter_feat <- gsub('^f',"Frequency.",filter_feat)
   
   #-----------------------------------------------------------------
   #4. Appropriately labels the data set with descriptive activity 
