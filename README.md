@@ -23,6 +23,6 @@ You should create one R script called run_analysis.R that does the following.
 ## How to reproduce the project?
 
 1. Grab the R script "run_analysis.r" into your workspace and load it (source("run_analysis.r"))
-2. Execute the algorithm calling run_analysis (x), being x the path of the working directory.
-3. the tidy data set from the question 5 will be generated on the working directory (that you must pass as parameter to execute "run_analysis" function and named as "tidyData.txt"
+2. Execute the algorithm calling run_analysis (x), being "x" the working directory path.
+3. The tidy data set from 5th question will be generated on the working directory (that you must pass as parameter to execute "run_analysis" function) and named as "tidyData.txt"
 
